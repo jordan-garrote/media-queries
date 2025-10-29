@@ -7,34 +7,35 @@
     <title>Media Queries</title>
   </head>
   <body>
-    <header>
-      <div class="flex">
-        <div class="icon">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 24 24"
-            fill="#fff"
-          >
-            <title>car</title>
-            <path
-              d="M5,11L6.5,6.5H17.5L19,11M17.5,16A1.5,1.5 0 0,1 16,14.5A1.5,1.5 0 0,1 17.5,13A1.5,1.5 0 0,1 19,14.5A1.5,1.5 0 0,1 17.5,16M6.5,16A1.5,1.5 0 0,1 5,14.5A1.5,1.5 0 0,1 6.5,13A1.5,1.5 0 0,1 8,14.5A1.5,1.5 0 0,1 6.5,16M18.92,6C18.72,5.42 18.16,5 17.5,5H6.5C5.84,5 5.28,5.42 5.08,6L3,12V20A1,1 0 0,0 4,21H5A1,1 0 0,0 6,20V19H18V20A1,1 0 0,0 19,21H20A1,1 0 0,0 21,20V12L18.92,6Z"
-            />
-          </svg>
+    <div class="container">
+      <header class="header">
+        <div class="flex">
+          <div class="icon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="#fff"
+            >
+              <title>car</title>
+              <path
+                d="M5,11L6.5,6.5H17.5L19,11M17.5,16A1.5,1.5 0 0,1 16,14.5A1.5,1.5 0 0,1 17.5,13A1.5,1.5 0 0,1 19,14.5A1.5,1.5 0 0,1 17.5,16M6.5,16A1.5,1.5 0 0,1 5,14.5A1.5,1.5 0 0,1 6.5,13A1.5,1.5 0 0,1 8,14.5A1.5,1.5 0 0,1 6.5,16M18.92,6C18.72,5.42 18.16,5 17.5,5H6.5C5.84,5 5.28,5.42 5.08,6L3,12V20A1,1 0 0,0 4,21H5A1,1 0 0,0 6,20V19H18V20A1,1 0 0,0 19,21H20A1,1 0 0,0 21,20V12L18.92,6Z"
+              />
+            </svg>
+          </div>
+          <h2>Electric Cars</h2>
+          <div class="icon">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="#fff"
+            >
+              <title>menu</title>
+              <path d="M3,6H21V8H3V6M3,11H21V13H3V11M3,16H21V18H3V16Z" />
+            </svg>
+          </div>
         </div>
-        <h2>Electric Cars</h2>
-        <div class="icon">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            viewBox="0 0 24 24"
-            fill="#fff"
-          >
-            <title>menu</title>
-            <path d="M3,6H21V8H3V6M3,11H21V13H3V11M3,16H21V18H3V16Z" />
-          </svg>
-        </div>
-      </div>
-    </header>
-    <main>
+      </header>
+
       <div class="filter">
         <h3>Ordenar por</h3>
         <select>
@@ -45,8 +46,15 @@
           <option value="calificacion">Calificación</option>
         </select>
       </div>
+      <aside class="aside">
+        <!-- <h2>Filtros</h2> -->
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Catálogo</a></li>
+        <li><a href="#">Ofertas</a></li>
+        <li><a href="#">Contacto</a></li>
+      </aside>
       <section class="cards">
-        <article class="card">
+        <div class="card">
           <div class="car-img">
             <img src="/assets/img/car1.jpg" alt="Car 1" />
           </div>
@@ -56,8 +64,8 @@
             <p>Precio: $22.000.000</p>
             <p>Calificación: ★★★★★</p>
           </div>
-        </article>
-        <article class="card">
+        </div>
+        <div class="card">
           <div class="car-img">
             <img src="/assets/img/car2.jpg" alt="Car 2" />
           </div>
@@ -67,8 +75,8 @@
             <p>Precio: $36.000.000</p>
             <p>Calificación: ★★★★☆</p>
           </div>
-        </article>
-        <article class="card">
+        </div>
+        <div class="card">
           <div class="car-img">
             <img src="/assets/img/car3.jpg" alt="Car 3" />
           </div>
@@ -78,19 +86,50 @@
             <p>Precio: $16.500.000</p>
             <p>Calificación: ★★★★☆</p>
           </div>
-        </article>
+        </div>
+        <div class="card">
+          <div class="car-img">
+            <img src="/assets/img/car2.jpg" alt="Car 2" />
+          </div>
+          <div class="card-content">
+            <h4>Alfa Romeo Giulia</h4>
+            <p>Año: 2021</p>
+            <p>Precio: $36.000.000</p>
+            <p>Calificación: ★★★★☆</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="car-img">
+            <img src="/assets/img/car3.jpg" alt="Car 3" />
+          </div>
+          <div class="card-content">
+            <h4>MG</h4>
+            <p>Año: 2022</p>
+            <p>Precio: $16.500.000</p>
+            <p>Calificación: ★★★★☆</p>
+          </div>
+        </div>
       </section>
       <div class="paginacion">
-        <a href=""><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>arrow-left-bold</title><path d="M20,9V15H12V19.84L4.16,12L12,4.16V9H20Z" /></svg></a>
+        <a href=""
+          ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <title>arrow-left-bold</title>
+            <path d="M20,9V15H12V19.84L4.16,12L12,4.16V9H20Z" /></svg
+        ></a>
         <a href="#" class="active">1</a>
         <a href="#">2</a>
         <a href="#">3</a>
         <a href="#">4</a>
-        <a href="#"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><title>arrow-right-bold</title><path d="M4,15V9H12V4.16L19.84,12L12,19.84V15H4Z" /></svg></a>
+        <a href="#"
+          ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <title>arrow-right-bold</title>
+            <path d="M4,15V9H12V4.16L19.84,12L12,19.84V15H4Z" /></svg
+        ></a>
       </div>
-      <footer>
+
+      <footer class="footer">
         <p>© 2024 Electric Cars. All rights reserved.</p>
       </footer>
-    </main>
+    </div>
   </body>
 </html>
