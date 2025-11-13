@@ -49,6 +49,14 @@ body {
   width: 40px;
   height: 40px;
 }
+.icon svg {
+  transition: all 0.4s ease;
+}
+.icon svg:hover {
+  transform: scale(1.15) rotateY(180deg);
+
+  cursor: pointer;
+}
 .flex h2 {
   color: #fff;
 }
@@ -84,12 +92,12 @@ body {
   border-radius: 6px;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   justify-items: center;
-  transition: all 0.3s ease;
+  transition: all 0.2s ease;
 }
 .card:hover {
-  transform: scale(1.05);
+  transform: scale(1.05) translateY(-10px);
+  background-color: #dff2ff;
   cursor: pointer;
-
 }
 .card .car-img {
   width: 300px;
@@ -134,15 +142,16 @@ footer {
   color: #fff;
 }
 
-@media (max-width: 600px) {
 
+
+
+@media (max-width: 600px) {
   .filter {
     flex-direction: column;
     align-items: center;
   }
 }
 @media (min-width: 768px) {
-
   .container {
     grid-template-areas:
       "header header header header"
@@ -158,11 +167,11 @@ footer {
     color: #fff;
     padding: 20px;
   }
-  .aside li{
+  .aside li {
     list-style: none;
     margin-bottom: 10px;
   }
-  .aside li a{
+  .aside li a {
     text-decoration: none;
     color: #fff;
   }
