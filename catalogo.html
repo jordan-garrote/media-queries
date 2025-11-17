@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/assets/css/styles.css" />
+    <title>Media Queries</title>
+  </head>
+  <body>
+    <div class="container">
+      <header class="header">
+        <div class="flex">
+          <div class="icon">
+            <a href="index.html"><p>Electric Car</p></a>
+          </div>
+          <img src="assets/img/logo2.png" alt="Logo" class="logo" />
+          <div class="icon menu">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              fill="#fff"
+            >
+              <title>menu</title>
+              <path d="M3,6H21V8H3V6M3,11H21V13H3V11M3,16H21V18H3V16Z" />
+            </svg>
+          </div>
+        </div>
+      </header>
+
+      <div class="filter">
+        <h3>Ordenar por</h3>
+        <select>
+          <option value="">Todas las marcas</option>
+          <option value="precio">Precio</option>
+          <option value="year">Año</option>
+          <option value="tipo">Tipo</option>
+          <option value="calificacion">Calificación</option>
+        </select>
+      </div>
+      <aside class="aside">
+        <!-- <h2>Filtros</h2> -->
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="catalogo.html" class="active">Catálogo</a></li>
+        <li><a href="#">Ofertas</a></li>
+        <li><a href="#">Contacto</a></li>
+      </aside>
+      <section class="cards">
+        <div class="card">
+          <div class="car-img">
+            <img src="/assets/img/car1.png" alt="Car 1" />
+          </div>
+          <div class="card-content">
+            <h4>Audi</h4>
+            <p>Año: 2022</p>
+            <p>Precio: $22.000.000</p>
+            <p>Calificación: ★★★★★</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="car-img">
+            <img src="/assets/img/car2.png" alt="Car 2" />
+          </div>
+          <div class="card-content">
+            <h4>Alfa Romeo Giulia</h4>
+            <p>Año: 2021</p>
+            <p>Precio: $36.000.000</p>
+            <p>Calificación: ★★★★☆</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="car-img">
+            <img src="/assets/img/car3.png" alt="Car 3" />
+          </div>
+          <div class="card-content">
+            <h4>MG</h4>
+            <p>Año: 2022</p>
+            <p>Precio: $16.500.000</p>
+            <p>Calificación: ★★★★☆</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="car-img">
+            <img src="/assets/img/car2.png" alt="Car 2" />
+          </div>
+          <div class="card-content">
+            <h4>Alfa Romeo Giulia</h4>
+            <p>Año: 2021</p>
+            <p>Precio: $36.000.000</p>
+            <p>Calificación: ★★★★☆</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="car-img">
+            <img src="/assets/img/car3.png" alt="Car 3" />
+          </div>
+          <div class="card-content">
+            <h4>MG</h4>
+            <p>Año: 2022</p>
+            <p>Precio: $16.500.000</p>
+            <p>Calificación: ★★★★☆</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="car-img">
+            <img src="/assets/img/car2.png" alt="Car 2" />
+          </div>
+          <div class="card-content">
+            <h4>Alfa Romeo Giulia</h4>
+            <p>Año: 2021</p>
+            <p>Precio: $36.000.000</p>
+            <p>Calificación: ★★★★☆</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="car-img">
+            <img src="/assets/img/car3.png" alt="Car 3" />
+          </div>
+          <div class="card-content">
+            <h4>MG</h4>
+            <p>Año: 2022</p>
+            <p>Precio: $16.500.000</p>
+            <p>Calificación: ★★★★☆</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="car-img">
+            <img src="/assets/img/car3.png" alt="Car 3" />
+          </div>
+          <div class="card-content">
+            <h4>MG</h4>
+            <p>Año: 2022</p>
+            <p>Precio: $16.500.000</p>
+            <p>Calificación: ★★★★☆</p>
+          </div>
+        </div>
+        <div class="card">
+          <div class="car-img">
+            <img src="/assets/img/car2.png" alt="Car 2" />
+          </div>
+          <div class="card-content">
+            <h4>Alfa Romeo Giulia</h4>
+            <p>Año: 2021</p>
+            <p>Precio: $36.000.000</p>
+            <p>Calificación: ★★★★☆</p>
+          </div>
+        </div>
+      </section>
+      <div class="paginacion">
+        <a href=""
+          ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <title>arrow-left-bold</title>
+            <path d="M20,9V15H12V19.84L4.16,12L12,4.16V9H20Z" /></svg
+        ></a>
+        <a href="#" class="active">1</a>
+        <a href="#">2</a>
+        <a href="#">3</a>
+        <a href="#">4</a>
+        <a href="#"
+          ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+            <title>arrow-right-bold</title>
+            <path d="M4,15V9H12V4.16L19.84,12L12,19.84V15H4Z" /></svg
+        ></a>
+      </div>
+
+      <footer class="footer">
+        <div class="info_footer">
+          <img src="/assets/img/car1.png" alt="Car 1" class="auto-footer" />
+
+          <div>
+            <h3>Información de Contacto</h3>
+            <p>Teléfono: +569 8882 1380</p>
+            <p>Email: contacto@electriccars.com</p>
+            <p>Dirección: Calle Nueva 123, Ciudad</p>
+          </div>
+          <div>
+            <h3>Enlaces a RRSS</h3>
+            <a href="http://facebook.com" target="_blank"><p>Facebook</p></a>
+            <a href="http://x.com" target="_blank"><p>Twitter</p></a>
+            <a href="http://instagram.com" target="_blank"><p>Instagram</p></a>
+          </div>
+        </div>
+
+        <p>© 2024 Electric Cars. All rights reserved.</p>
+      </footer>
+    </div>
+  </body>
+</html>

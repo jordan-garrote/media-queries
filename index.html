@@ -11,19 +11,10 @@
       <header class="header">
         <div class="flex">
           <div class="icon">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              viewBox="0 0 24 24"
-              fill="#fff"
-            >
-              <title>car</title>
-              <path
-                d="M5,11L6.5,6.5H17.5L19,11M17.5,16A1.5,1.5 0 0,1 16,14.5A1.5,1.5 0 0,1 17.5,13A1.5,1.5 0 0,1 19,14.5A1.5,1.5 0 0,1 17.5,16M6.5,16A1.5,1.5 0 0,1 5,14.5A1.5,1.5 0 0,1 6.5,13A1.5,1.5 0 0,1 8,14.5A1.5,1.5 0 0,1 6.5,16M18.92,6C18.72,5.42 18.16,5 17.5,5H6.5C5.84,5 5.28,5.42 5.08,6L3,12V20A1,1 0 0,0 4,21H5A1,1 0 0,0 6,20V19H18V20A1,1 0 0,0 19,21H20A1,1 0 0,0 21,20V12L18.92,6Z"
-              />
-            </svg>
+            <a href="index.html"><p>Electric Car</p></a>
           </div>
-          <h2>Electric Cars</h2>
-          <div class="icon">
+          <img src="assets/img/logo2.png" alt="Logo" class="logo" />
+          <div class="icon menu">
             <svg
               xmlns="http://www.w3.org/2000/svg"
               viewBox="0 0 24 24"
@@ -37,26 +28,22 @@
       </header>
 
       <div class="filter">
-        <h3>Ordenar por</h3>
-        <select>
-          <option value="">Todas las marcas</option>
-          <option value="precio">Precio</option>
-          <option value="year">Año</option>
-          <option value="tipo">Tipo</option>
-          <option value="calificacion">Calificación</option>
-        </select>
+ 
+        <h3>Revisa Nuestras Principales Ofertas</h3>
       </div>
       <aside class="aside">
         <!-- <h2>Filtros</h2> -->
-        <li><a href="#">Inicio</a></li>
-        <li><a href="#">Catálogo</a></li>
+        <li><a href="#" class="active">Inicio</a></li>
+        <li><a href="catalogo.html">Catálogo</a></li>
         <li><a href="#">Ofertas</a></li>
         <li><a href="#">Contacto</a></li>
       </aside>
+      
       <section class="cards">
+        
         <div class="card">
           <div class="car-img">
-            <img src="/assets/img/car1.jpg" alt="Car 1" />
+            <img src="/assets/img/car1.png" alt="Car 1" />
           </div>
           <div class="card-content">
             <h4>Audi</h4>
@@ -67,7 +54,7 @@
         </div>
         <div class="card">
           <div class="car-img">
-            <img src="/assets/img/car2.jpg" alt="Car 2" />
+            <img src="/assets/img/car2.png" alt="Car 2" />
           </div>
           <div class="card-content">
             <h4>Alfa Romeo Giulia</h4>
@@ -78,7 +65,7 @@
         </div>
         <div class="card">
           <div class="car-img">
-            <img src="/assets/img/car3.jpg" alt="Car 3" />
+            <img src="/assets/img/car3.png" alt="Car 3" />
           </div>
           <div class="card-content">
             <h4>MG</h4>
@@ -87,47 +74,25 @@
             <p>Calificación: ★★★★☆</p>
           </div>
         </div>
-        <div class="card">
-          <div class="car-img">
-            <img src="/assets/img/car2.jpg" alt="Car 2" />
-          </div>
-          <div class="card-content">
-            <h4>Alfa Romeo Giulia</h4>
-            <p>Año: 2021</p>
-            <p>Precio: $36.000.000</p>
-            <p>Calificación: ★★★★☆</p>
-          </div>
-        </div>
-        <div class="card">
-          <div class="car-img">
-            <img src="/assets/img/car3.jpg" alt="Car 3" />
-          </div>
-          <div class="card-content">
-            <h4>MG</h4>
-            <p>Año: 2022</p>
-            <p>Precio: $16.500.000</p>
-            <p>Calificación: ★★★★☆</p>
-          </div>
-        </div>
+        <a href="catalogo.html" class="btn">Ver Todo</a>
       </section>
-      <div class="paginacion">
-        <a href=""
-          ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-            <title>arrow-left-bold</title>
-            <path d="M20,9V15H12V19.84L4.16,12L12,4.16V9H20Z" /></svg
-        ></a>
-        <a href="#" class="active">1</a>
-        <a href="#">2</a>
-        <a href="#">3</a>
-        <a href="#">4</a>
-        <a href="#"
-          ><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
-            <title>arrow-right-bold</title>
-            <path d="M4,15V9H12V4.16L19.84,12L12,19.84V15H4Z" /></svg
-        ></a>
-      </div>
-
       <footer class="footer">
+        <div class="info_footer">
+          <img src="/assets/img/car1.png" alt="Car 1" class="auto-footer" />
+          <div>
+            <h3>Información de Contacto</h3>
+            <p>Teléfono: +569 8882 1380</p>
+            <p>Email: contacto@electriccars.com</p>
+            <p>Dirección: Calle Nueva 123, Ciudad</p>
+          </div>
+          <div>
+            <h3>Enlaces a RRSS</h3>
+            <a href="http://facebook.com" target="_blank"><p>Facebook</p></a>
+            <a href="http://x.com" target="_blank"><p>Twitter</p></a>
+            <a href="http://instagram.com" target="_blank"><p>Instagram</p></a>
+          </div>
+        </div>
+
         <p>© 2024 Electric Cars. All rights reserved.</p>
       </footer>
     </div>
